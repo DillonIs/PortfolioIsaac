@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter, 
+  AiOutlineTwitter,
   AiFillInstagram,
   AiFillYoutube,
 } from "react-icons/ai";
@@ -15,62 +15,32 @@ function Footer() {
         <Col md="12" className="footer-body" style={{ textAlign: "center" }}>
           <ul className="footer-icons" style={{ justifyContent: "center" }}>
             <li className="social-icons">
-              
-                href="https://github.com"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://github.com" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
                 <AiFillGithub />
               </a>
             </li>
             <li className="social-icons">
-              
-                href="https://twitter.com"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://twitter.com" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
                 <AiOutlineTwitter />
               </a>
             </li>
             <li className="social-icons">
-              
-                href="https://linkedin.com"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://linkedin.com" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
                 <FaLinkedinIn />
               </a>
             </li>
             <li className="social-icons">
-              
-                href="https://instagram.com"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://instagram.com" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
                 <AiFillInstagram />
               </a>
             </li>
             <li className="social-icons">
-              
-                href="https://tiktok.com"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://tiktok.com" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
                 <FaTiktok />
               </a>
             </li>
             <li className="social-icons">
-              
-                href="https://youtube.com"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://youtube.com" style={{ color: "white" }} target="_blank" rel="noopener noreferrer">
                 <AiFillYoutube />
               </a>
             </li>
