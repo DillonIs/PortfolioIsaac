@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import Particle from "../Particle";
+import Particle from "../../Particle";
 
 function WriteupTemplate({ title, children }) {
   const navigate = useNavigate();
