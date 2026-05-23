@@ -9,7 +9,7 @@ function WriteupTemplate({ children }) {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Container style={{ paddingTop: "20px", paddingBottom: "80px", maxWidth: "860px" }}>
+        <Container style={{ paddingTop: "20px", paddingBottom: "80px", maxWidth: "860px", position: "relative", zIndex: 1 }}>
 
           <button
             onClick={() => window.location.href = "https://the-playground-portfolio1.vercel.app/project"}
@@ -26,6 +26,8 @@ function WriteupTemplate({ children }) {
               transition: "all 0.3s ease",
               cursor: "pointer",
               marginBottom: "40px",
+              position: "relative",
+              zIndex: 1,
             }}
           >
             ← Back to Projects
@@ -36,6 +38,8 @@ function WriteupTemplate({ children }) {
             fontSize: "1.1em",
             lineHeight: "1.8",
             textAlign: "left",
+            position: "relative",
+            zIndex: 1,
           }}>
             {children}
           </div>
