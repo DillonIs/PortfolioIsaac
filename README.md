@@ -24,7 +24,7 @@ For the smoothest experience, it is recommended that you have 2 browser tabs ope
    
                 Windows Key + → (right arrow key)   **Press both at the same time**
             
-      This will show instructions to the left side of your screen.
+      This will show instructions to the right side of your screen.
 
 This setup makes it much easier to follow the guide while editing your portfolio at the same time without constantly switching tabs or digging through code.
 
