@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 
-
 function ProjectCards(props) {
   const [hovered, setHovered] = useState(false);
 
@@ -54,4 +53,5 @@ function ProjectCards(props) {
     </Card>
   );
 }
+
 export default ProjectCards;
