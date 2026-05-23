@@ -47,7 +47,7 @@ To customize the Home Page, locate this file inside the project:
       
 Yes, the file is called **Home.js**. This is where the main landing page text is edited.
 
-Once you have the `Home.js`file open click this editing icon on the screen,
+Once you have the `Home.js`file open, click this editing icon on the screen,
 
 <img src="README-Images/Edit-code.png" width="500">
 
