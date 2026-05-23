@@ -1,103 +1,73 @@
 Hey There,
 Before you begin, it is highly recommended that you customize this portfolio on a **laptop or medium-to-large screen device**.
 
-For the smoothest experience, open:
-  1. **One tab** for reading these instructions.
-  2. **Second tab** for editing the code.
+---
 
-This makes it much easier to follow along without constantly switching back and forth folders and files.
+🖥️ Setup Recommendation
+For the smoothest experience, it is recommended that you have 2 browser tabs open side-by-side while customizing the portfolio.
+
+1. Open one tab for reading these instructions.
+      Then press on your keyboard:
+          Windows Key + ← (left arrow key)  **Press both at the same time**
+      
+      This will show instructions to the left side of your screen.
+
+2. Open a second tab for editing the code.
+      Then press on your keyboard:
+                Windows Key + → (right arrow key)   **Press both at the same time**
+            
+      This will show instructions to the left side of your screen.
+
+This setup makes it much easier to follow the guide while editing your portfolio at the same time without constantly switching tabs or digging through code.
 
 ---
 
-Welcome! This portfolio was built to be easy to personalize, even if you’re a beginner. Don’t worry if some of this feels new at first, you only need to change a few lines to make the portfolio feel completely yours.
+This portfolio was built to be easy to personalize, even if you’re a beginner. Don’t worry if some of this feels new at first, you only need to change a few lines to make the portfolio feel completely yours.
 
 ---
+
 🏠 Home Page Customization
 
 ✨ Step 1: Open the Correct File
 
 To customize the Home Page, locate this file inside the project:
-
-    src/components/Home/Home.js
-
-
-Yes — the file is called **Home.js**.
-
-This is where the main landing page text is controlled.
+      
+          src/components/Home/Home.js
+      
+Yes, the file is called **Home.js**. This is where the main landing page text is edited.
 
 ---
 
-# 👋 Customizing the Greeting Wave
+✨ Step 2: Customizing the Greeting Wave
 
-Inside `Home.js`, you will see a commented instruction around **line 19**.
-
+Inside `Home.js`, you will see a commented instruction between **line 19** and **line 28**.
 It will ask you to choose a skin tone for the waving hand emoji.
 
 Choose **ONLY ONE** of these:
 
-```js
-👋
-👋🏻
-👋🏼
-👋🏽
-👋🏾
-👋🏿
-```
-
-## ✅ Important
+      👋👋🏻👋🏼👋🏽👋🏾👋🏿
 
 Please select **only one emoji**.
-
-If multiple emojis are left in the code, the component may not work correctly.
+If multiple emojis are chosen, the code may not work correctly.
 
 ---
 
-# ✍️ Changing Your Name
+✨ Step 3: Changing Your Name
 
-Next, look for another commented instruction around **line 34**.
+Next, look for another commented instruction in the same `Home.js` file between **line 34** and **line 40**.
 
 You will see something like this on the Home Page:
 
-```txt
-I'M [YOUR NAME]
-```
+      I'M [YOUR NAME]
 
-Replace:
-
-```txt
-[YOUR NAME]
-```
-
-with:
-
-* Your real name
-* Your nickname
-* Your gamer tag
-* Or anything you would like visitors to call you
+Replace it with your real name, your nickname or anything you would like visitors to call you.
 
 ---
 
-## ✅ Example
 
-Before:
 
-```js
-I'M [YOUR NAME]
-```
+<img width="959" height="494" alt="Screenshot 2026-05-23 172658" src="https://github.com/user-attachments/assets/48d86091-0f56-4061-b0a7-98370d5567b6" />
 
-After:
-
-```js
-I'M Alex
-```
-
-or
-
-```js
-I'M CyberKai
-```
-
----
 
 # 🌟 Final Result
 
