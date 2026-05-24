@@ -305,3 +305,57 @@ Do **not** change this part:
 
 ---
 
+
+✨ Step 9: Customizing The Footer Section
+
+Now we’re going to customize the **last section of the Home Page**, the footer.
+
+The footer is important because it gives visitors ways to: Contact you, Find your social media, Connect professionally, And see where you’re based.
+
+Once this section is customized, your Home Page will officially feel complete and fully personalized.
+
+Open the Footer.js File. Locate and open this file:
+
+      src/components/Footer.js
+
+Yes, the file is called **Footer.js**. This file controls the footer section located at the bottom of your portfolio.
+
+Inside `Footer.js`, go to **line 19**.
+
+You will see some instructions. You can:
+
+* Change the links to your own profiles
+* Delete platforms you don’t use
+* Keep only the platforms relevant to you
+
+When replacing links, make sure you include:
+
+      https://
+
+at the beginning of every URL.
+
+Once you’ve finished editing your social media links, stay inside the **same Footer.js file** and scroll down to **line 68**.
+
+You will some instructions. Update Your Location
+
+Replace:
+
+      [Your Location]
+
+with your: Country, City or wherever you are based.
+
+---
+
+# 🌟 Home Page Complete
+
+That’s it, we’re officially done customizing the Home Page 🎉
+
+By now, you should notice some massive changes and the portfolio should start feeling much more like you.
+
+
+---
+
+
+
+
+
