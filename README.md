@@ -241,3 +241,52 @@ You will see instructions in the code to assist you with writing this section.
       Please do **not** modify or delete any code underneath approximately **line 
       61** unless you understand what the code is doing.
 
+
+---
+
+
+✨ Step 9: Changing the Animated Character (OPTIONAL!!!)
+
+By default, the portfolio comes with an animated character on the Home Page.
+
+If you would prefer, you can replace this with your own image.
+
+To do this first locate this folder inside the project:
+
+      src/Assets
+
+Use the image below as a guide, inside this folder:
+
+1. Click the **Upload Files** button.
+2. Select the image you want to use.
+3. Click the **Commit Changes** button after the upload finishes.
+
+<img src="README-Images/Upload-files.png" width="500">
+
+And make sure you save it using "Commit Changes".
+
+<img src="README-Images/Saving-upload-files.png" width="500">
+
+Now locate and open this file:
+
+      src/components/Home/Home2.js
+
+Inside the file, look at **line 4**.
+
+You will see some instructions that you will see something similar to this:
+
+      import myImg from "../../Assets/avatar.png";
+
+Replace only:
+
+      avatar.png
+
+with the exact full name of your uploaded image.
+
+Do **not** change this part:
+
+      import myImg from "../../Assets/
+
+
+---
+
