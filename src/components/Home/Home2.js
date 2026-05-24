@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
-{/* EDIT THIS PART:
-The import code on line 7 where it says avatar.png change it to your preferred full image name (do not change the: import myImg from "../../Assets/). */}
-
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
+
+ 
+// EDIT THIS PART:
+// The import above on line 3 where it says avatar.png, change it to your preferred image name.
+// Do not change anything else on that line.
+
 
 function Home2() {
   return (
