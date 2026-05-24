@@ -182,12 +182,33 @@ Locate and open this file:
 
       src/components/Navbar.js
 
-
 Yes, the file is called **Navbar.js**. This file controls the navigation bar displayed at the top of your portfolio.
 
 Inside `Navbar.js`, go to **line 51**.
 
 You will see some instructions to change the brand name from `[Name]` to your choosing.
+
+Now let’s add your brand name to the very top of the browser tab.
+
+This is the section we’re going to customize shown below.
+
+<img src="README-Images/tabs-name.png" width="500">
+
+When someone opens your portfolio, this name will appear:At the top of the browser tab, In bookmarks and when visitors switch between tabs.
+
+Locate and open this file:
+
+      public/index.html
+
+Yes, the file is called **index.html**. This file controls some of the core browser and webpage settings for your portfolio.
+
+Inside `index.html`, go to **line 12**.
+
+You will see some instructions and find something like:
+
+      <title>[Name]</title>
+
+Replace the `[Name]` with your brand name.
 
 
 ---
