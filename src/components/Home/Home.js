@@ -17,7 +17,7 @@ function Home() {
                 Hi There!{" "}
 
                 {/* EDIT THIS PART:
-                    Select the skin tone that works best for you and replace the emoji below.
+                    Select the skin tone that works best for you and replace the emoji on line 24.
                     Only keep ONE & replace it in the span code: 👋 👋🏻 👋🏼 👋🏽 👋🏾 👋🏿 */}
 
                 <span className="wave" role="img" aria-labelledby="wave">
