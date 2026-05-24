@@ -16,6 +16,13 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
+          {/* EDIT THIS PART:
+          To edit the words on the project cards change the text inside the title and the description.
+          The writeuplink should redirect to your exact project write-up documentation located here: src/components/Projects/Writeups .
+          If you want to add more projects on your portfolio copy and paste all code between an individual 
+          <Col md={4} className="project-card"> Code </Col>*/}
+
+          // PROJECT 1
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={require("../../Assets/Projects/placeholder1.jpeg")}
@@ -25,6 +32,7 @@ function Projects() {
             />
           </Col>
 
+          // PROJECT 2
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={require("../../Assets/Projects/placeholder2.jpeg")}
@@ -34,6 +42,7 @@ function Projects() {
             />
           </Col>
 
+          // PROJECT 3
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={require("../../Assets/Projects/placeholder3.jpeg")}
@@ -43,6 +52,7 @@ function Projects() {
             />
           </Col>
 
+          // PROJECT 4
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={require("../../Assets/Projects/placeholder4.jpeg")}
@@ -52,6 +62,7 @@ function Projects() {
             />
           </Col>
 
+          // PROJECT 5
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={require("../../Assets/Projects/placeholder5.jpeg")}
@@ -61,6 +72,7 @@ function Projects() {
             />
           </Col>
 
+          // PROJECT 6
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={require("../../Assets/Projects/placeholder6.jpeg")}
