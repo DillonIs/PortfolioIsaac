@@ -451,8 +451,115 @@ When copying project cards:
 Small formatting mistakes can stop the Projects section from rendering correctly.
 
 
-# 📂 Projects Page Customization
+---
 
+
+# 📄 Customizing Your Resume Page
+
+Last but definitely not least, your **Resume Page**.
+
+Attaching your resume to your portfolio is extremely important because your portfolio can continue working for you even while you sleep.
+
+A:
+
+* Recruiter
+* Collaborator
+* Hiring manager
+* Client
+* Or visitor with an opportunity
+
+might come across your portfolio without you even realizing it and decide to contact you based on what they see.
+
+Your portfolio is a **digital asset** that quietly represents you in the background of your life.
+
+
+---
+
+
+✨ Step 1: Upload Your Resume
+
+First, locate this folder:
+
+      src/Assets
+
+Now upload your resume file using the same process from **Step 8** in the Home Page customization section.
+
+That means:
+
+1. Click the **Upload Files** button
+2. Select your resume file
+3. Click the **Commit Changes** button
+
+📌 Important
+
+Make sure you remember the **exact full file name** of your uploaded resume.
+
+For example: Alex_Resume.pdf
+
+You will need this for the next step.
+
+
+---
+
+
+✨ Step 2: Open the ResumeNew.js File
+
+Locate and open this file:
+
+      src/components/Resume/ResumeNew.js
+
+Yes, the file is called **ResumeNew.js**. Inside the file, look at **line 12**.
+
+You will see some instructions to replace The Resume File Name.
+
+You will see something like:
+
+      import pdf from "../../Assets/Placeholder_CV.pdf";
+
+Replace only:
+
+      Placeholder_CV.pdf
+
+with the exact file name of your uploaded resume.
+
+⚠️ Important
+
+Do **not** change anything else on that line.
+
+Only replace the resume file name.
+
+
+---
+
+
+# 🎉 You’re Officially Done
+
+That should be it, you are now officially done customizing your digital asset 🚀
+
+Make sure you keep your:
+
+* Projects
+* Resume
+* Skills
+* And write-ups
+
+up-to-date over time.
+
+That’s how your portfolio continues attracting opportunities quietly in the background of your life.
+
+You never know who might discover your work.
+
+
+---
+
+
+# 🤝 Need Help?
+
+If you encounter any challenges, you’re always welcome to reach out to me personally on LinkedIn:
+
+[Bree Kagwe LinkedIn](https://www.linkedin.com/in/bree-kagwe/?utm_source=chatgpt.com)
+
+Or ask an AI you trust for some assistance. Hey were living in the future, why not?
 
 
 
