@@ -47,6 +47,10 @@ function NavBar() {
             e.currentTarget.style.transform = "scale(1)";
           }}
           >
+
+            {/* EDIT THIS PART:
+             Change the [Name] blew this to your brand name. This will be the logo of your portfolio */}
+
             [Name].
           </span>
         </Navbar.Brand>
