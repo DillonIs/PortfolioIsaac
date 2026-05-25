@@ -394,7 +394,7 @@ If you want to include screenshots, diagrams, or images inside your project docu
 
 First upload all screenshots to this folder:
 
-      src/Assets/Project-Writeups
+      src/Assets/Writeup-Images
 
 Once uploaded, use the image path inside your HTML image tag like this:
 
