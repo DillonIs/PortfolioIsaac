@@ -17,21 +17,43 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
           {/* EDIT THIS PART:
-            - To edit the words shown on the project cards, change the text inside the title and description sections.
-            - To link a project card to its correct write-up page, you will see a line of code similar to this:
-                    
-                    writeupLink="/writeup/ThinkingLikeAHacker"
-
-            - Only change the write-up name at the end. Example: ThinkingLikeAHacker → PromptInjection
-            - Do NOT change:
+            1. To edit the words shown on the project cards, change the text inside the title and description sections.
+            2. To change the main image on a project card, upload your image to:
             
-                    writeupLink="/writeup/
-
-            - If you want to add more projects to your portfolio, copy and paste all code between one individual:
-
-                    <Col md={4} className="project-card"> Your New Project </Col>
-
-            - Then replace the project information with your own.
+                        src/Assets/ProjectImages
+            
+                - You will then see a line of code similar to this:
+            
+                        imgPath={require("../../Assets/ProjectImages/placeholder1.jpeg")}
+            
+                - Only change the image file name at the end.
+            
+                        Example:
+                        placeholder1.jpeg → networkscanner.png
+            
+                - Do NOT change:
+            
+                        imgPath={require("../../Assets/ProjectImages/
+            
+            3. To link a project card to its correct write-up page, you will see a line of code similar to this:
+                    
+                        writeupLink="/writeup/ThinkingLikeAHacker"
+            
+                - Only change the write-up name at the end.
+            
+                        Example:
+                        ThinkingLikeAHacker → PromptInjection
+            
+                - Do NOT change:
+            
+                        writeupLink="/writeup/
+            
+            4. If you want to add more projects to your portfolio, copy and paste all code between one individual:
+            
+                        <Col md={4} className="project-card"> Your New Project </Col>
+            
+                - Then replace the project information with your own.
+          
           */}
 
 
