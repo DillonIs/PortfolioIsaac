@@ -40,8 +40,7 @@ function RedTeam1() {
       <h3 style={{ fontSize: "1.2em", paddingTop: "16px", paddingBottom: "6px" }}>Step 1 — Replace with step title</h3>
       <p>Describe what you did in this step.</p>
 
-      {/* To add a screenshot here, upload the image to src/Assets/Project-Writeups/ and uncomment the line below */}
-      {/* <img src={require("../../../Assets/Project-Writeups/step1-screenshot.png")} alt="Step 1 screenshot" style={imgStyle} /> */}
+      {/* To add an image here, upload the image to src/Assets/Project-Writeups/ and make sure you redirect using the right link. */}
 
       <h3 style={{ fontSize: "1.2em", paddingTop: "16px", paddingBottom: "6px" }}>Step 2 — Replace with step title</h3>
       <p>Describe what you did in this step.</p>
