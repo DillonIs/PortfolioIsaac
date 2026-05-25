@@ -358,11 +358,62 @@ By now, you should notice some massive changes and the portfolio should start fe
 
 # 📂 Projects Page Customization
 
-✨ Step 1: Customizing Your Projects Text
+✨ Step 1: Adding And Editing Projects 
 
 Now we’re moving onto the **Projects Section** of the portfolio. Don’t worry, we’ve already completed around **80% of the customization** 🎉
 
 This section is where visitors can explore your projects, labs, write-ups, tools, and anything else you want to showcase.
+
+Locate this folder:
+
+      src/components/Projects/Writeups
+
+This folder contains all of the individual project write-up pages used throughout your portfolio. Whenever you've completed a project's write-up store the code inside here in `.js` format.
+
+⚠️ Important
+You can use the already existing `.js` files as a template and only change the code between **line 19** that says:
+
+      /* ===================== EDIT BETWEEN THIS LINES SECTIONS ===================== */
+
+You can upload your project documentation using the same upload process from Step 8 in the Home Page customization section.
+
+That means:
+
+* Click the Upload Files button
+* Select your documentation file
+* Click the Commit Changes button
+  
+💡 Helpful Tip
+
+You can write your project documentation in:
+
+Microsoft Word
+Google Docs
+Or as a PDF
+
+Then ask an AI assistant to convert your documentation into HTML code.
+
+Once converted, copy and paste the generated HTML code into your write-up file between the `EDIT BETWEEN THIS LINES SECTIONS`.
+
+If you want to include screenshots, diagrams, or images inside your project documentation:
+
+First upload all screenshots to this folder:
+
+      src/Assets/Project-Writeups
+
+Once uploaded, use the image path inside your HTML image tag like this:
+
+      <img src="" />
+
+      <img src="../../Assets/Project-Writeups/Screenshot 2026-05-25 152410.png" />
+
+Nothing should happen visually on the portfolio so far. In the next step you will start to see the changes on the portfolio.
+
+
+---
+
+
+✨ Step 2: Customizing Your Projects Text
 
 Each individual project card contains text that helps visitors understand:
 
@@ -376,7 +427,6 @@ Open the Projects.js File. Located here:
 
 Yes, the file is called **Projects.js**. This file controls all of the project cards displayed in the Projects section of your portfolio.
 
-
 Inside `Projects.js`, you will find instructions on **line 19**:
 
 Each project card contains:
@@ -386,69 +436,86 @@ Each project card contains:
 * A write-up link
 * An image pathway
 
-To customize your projects, simply change the text inside the:
+To change the words displayed on the project cards, edit the text inside both the:
 
       title=
-
-and
-
       description=
 
+Each project card contains a line similar to this:
 
-Each project card also contains a:
+      writeupLink="/writeup/ThinkingLikeAHacker"
 
-      writeuplink=
+This controls which write-up page opens when someone clicks the view project button.
 
-This link should redirect visitors to your project write-up. Your project write-ups are located here:
+Only change the write-up name at the end.
 
-      src/components/Projects/Writeups
+Example:
 
-I'll go into more depth about this as you continue reading.
+      writeupLink="/writeup/ThinkingLikeAHacker"
+      
+      to
 
-To add or replace the image on the project card.
-Locate this folder:
+      writeupLink="/writeup/PromptInjection"
+      
+⚠️ Do NOT Change This Part
+
+      writeupLink="/writeup/
+
+Only replace the final write-up name.
+
+Changing the structure incorrectly may stop the project links from working properly.
+
+If you want to change the image on the main projects page of each individual project card. First, locate this folder:
 
       src/Assets/ProjectImages
 
-Upload and save whatever image you want on the projects main page using the uploading instructions on Step 8 of the Home Page Customization. 
+Upload your own image into this folder using the same upload process discussed earlier.
 
-Once your image has uploaded head back to:
+Head over to this file:
 
       src/components/Projects/Projects.js
 
-and only change the 
+In the individual projects section you will see something like:
 
-      placeholder1.jpeg 
+      imgPath={require("../../Assets/ProjectImages/placeholder1.jpeg")}
 
-with the name of your new image. Do not change the rest of the code:
+Change the image name only replace `placeholder1.jpeg` with the exact name of your uploaded image.
+
+⚠️ Important
+
+Do not change this part:
 
       imgPath={require("../../Assets/ProjectImages/
 
-If you want to add additional projects to your portfolio, you can duplicate an existing project card.
+Only replace the image file name at the end.
 
-Simply copy all code between:
+If the image name is incorrect or misspelled, the project image will not display correctly.
+
+If you want to add additional project cards to your portfolio. Copy and paste all code between one individual project section:
 
       <Col md={4} className="project-card">
+      Your New Project
       </Col>
 
-Then paste it underneath another project card.
-
-After that, just replace the:
+Then replace the:
 
 * Title
 * Description
+* Write-up link
 * Image
-* And write-up link
+* And project information
 
-with your new project information.
+with your own content.
+
+⚠️ Important
 
 When copying project cards:
 
-* Make sure you copy the entire block.
-* Keep the same formatting and indentation.
-* Avoid deleting brackets or symbols accidentally.
+* Keep the same formatting and indentation
+* Copy the entire project block
+* Avoid deleting brackets or symbols accidentally
 
-Small formatting mistakes can stop the Projects section from rendering correctly.
+Small formatting mistakes can cause the Projects section to break.
 
 
 ---
