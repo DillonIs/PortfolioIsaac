@@ -1,22 +1,10 @@
 import React from "react";
 import WriteupTemplate from "./WriteupTemplate";
 
-/*
-  ============================================================
-  HOW TO EDIT THIS FILE
-  ============================================================
-  - Only edit the text between the tags below
-  - To add a screenshot, upload the image to:
-      src/Assets/Project-Writeups/
-    Then add this line where you want it to appear:
-      <img src={require("../../../Assets/Project-Writeups/your-image.png")} alt="description" style={imgStyle} />
-  - Do NOT change anything in WriteupTemplate.js
-  ============================================================
-*/
 
 function RedTeam1() {
 
-  // --- IMAGE STYLE --- (controls how screenshots look, edit if needed)
+ 
   const imgStyle = {
     width: "100%",
     borderRadius: "8px",
