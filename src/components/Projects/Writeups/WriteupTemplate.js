@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import Particle from "../../Particle";
 
+// DO NOT TOUCH THIS FILE, IT IS NOT AN ACTUAL TEMPLATE IT HELPS STRUCTURE YOUR WRITE-UPS DESIGN.
+
 function WriteupTemplate({ children }) {
   const [hoveredTop, setHoveredTop] = useState(false);
   const [hoveredBottom, setHoveredBottom] = useState(false);
