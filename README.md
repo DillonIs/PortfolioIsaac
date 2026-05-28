@@ -343,7 +343,7 @@ You will see something like this on the Home Page:
 
       I'M [YOUR NAME]
 
-Replace it with your real name, your nickname or anything you would like visitors to call you.
+Replace it with your real name, your nickname or anything you would like visitors to call you. PS: You can remove the brackets.
 
 
 ---
@@ -447,7 +447,7 @@ You will see some instructions and find something like:
 
       <title>[Name]</title>
 
-Replace the `[Name]` with your brand name.
+Replace the `[Name]` with your brand name. PS: You can remove the brackets.
 
 
 ---
