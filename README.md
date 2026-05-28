@@ -23,13 +23,14 @@ Then:
 
 * Click the Fork button
 * Confirm the fork creation
-* Wait for GitHub to generate your own copy of the repository
 
-Once complete, you should now have the portfolio saved under your own GitHub account.
+The images below give you a guide.
 
 <img src="README-Images/fork-repository.png" width="1000">
 
 <img src="README-Images/create-fork.png" width="1000">
+
+Once complete, you should now have the portfolio saved under your own GitHub account.
 
 
 ✨ Step 2: Open Repository Settings
