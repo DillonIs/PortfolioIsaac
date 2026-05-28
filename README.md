@@ -221,6 +221,8 @@ If Vercel gives you a confirmation prompt like the one below, any of the two opt
 
 <img src="README-Images/change-domain-name-prompt.png" width="1000">
 
+If by any chance you encountered a strange error not on this README or accidentally deleted all domains or something important you can always start a fresh, contact me at the bottom of the README or ask an AI assistant.
+
 
 ---
 
