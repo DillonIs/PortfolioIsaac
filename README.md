@@ -477,7 +477,7 @@ Locate and open this file:
 
 Yes, the file is called **Home2.js**. This file controls the introduction/about-me section on the Home Page.
 
-Inside `Home2.js`, go to **line 22**.
+Inside `Home2.js`, go to **line 24**.
 
 You will see instructions in the code to assist you with writing this section.
 
@@ -507,7 +507,7 @@ You will see instructions in the code to assist you with writing this section.
 ⚠️ Important
 
       Please do **not** modify or delete any code underneath **line 
-      61** unless you understand what the code is doing.
+      67** unless you understand what the code is doing.
 
 
 ---
