@@ -31,7 +31,7 @@ function Home() {
                 {/* EDIT THIS PART:
                     Directly under this replace [YOUR NAME] with your preferred name */}
 
-                <strong className="main-name"> [Isaac Dillon] </strong>
+                <strong className="main-name"> Isaac Dillon </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
