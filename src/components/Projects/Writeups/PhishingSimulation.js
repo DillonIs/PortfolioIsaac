@@ -41,17 +41,23 @@ function RedTeam1() {
       <h2 style={{ fontSize: "1.5em", color: "#c770f0", paddingTop: "24px", paddingBottom: "8px" }}>How It Was Done</h2>
       <p>Walk through the steps you took below.</p>
 
-      <h3 style={{ fontSize: "1.2em", paddingTop: "16px", paddingBottom: "6px" }}>Step 1 — Replace with step title</h3>
-      <p>Describe what you did in this step.</p>
+      <h3 style={{ fontSize: "1.2em", paddingTop: "16px", paddingBottom: "6px" }}>Step 1 — Replace with step title Create App Password</h3>
+      <p>Describe what you did in this step. In this step we have to create an app password, this is done so that we aren't using any of our passwords. Note: copy and paste the generated password somewhere as once we hit done it will be hidden.</p>
 
       {/* To add an image here, upload the image to src/Assets/Project-Writeups/ and make sure you redirect using the right link. */}
 
-      <h3 style={{ fontSize: "1.2em", paddingTop: "16px", paddingBottom: "6px" }}>Step 2 — Replace with step title</h3>
-      <p>Describe what you did in this step.</p>
+      <h3 style={{ fontSize: "1.2em", paddingTop: "16px", paddingBottom: "6px" }}>Step 2 — Replace with step title Identify VM IP Address</h3>
+      <p>Describe what you did in this step. For this project we will need to know the IP address of our VM, we can find this out by using the command ip a inside a terminal.</p>
 
-      <h3 style={{ fontSize: "1.2em", paddingTop: "16px", paddingBottom: "6px" }}>Step 3 — Replace with step title</h3>
-      <p>Describe what you did in this step.</p>
-
+      <h3 style={{ fontSize: "1.2em", paddingTop: "16px", paddingBottom: "6px" }}>Step 3 — Replace with step title Starting Up Setoolkit</h3>
+      <p>Describe what you did in this step. For this project we will be using a toolkit, to start up a toolkit we use the command sudo setoolkit. Toolkits can be used for various attacks and can generate templates.</p>
+      
+      <h3 style={{ fontSize: "1.2em", paddingTop: "16px", paddingBottom: "6px" }}>Step 4 — Replace with step title Navigating setoolkit</h3>
+      <p>Describe what you did in this step. Once setoolkit has booted up we need to navigate through the options to perform our phishing simulation. The first lot of options setoolkit provides us with are types of attacks, the attack we will be performing in this project is option 1 Social-Engineering Attacks.</p>
+      
+      <h3 style={{ fontSize: "1.2em", paddingTop: "16px", paddingBottom: "6px" }}>Step 5 — Replace with step title Setting Up A Clone</h3>
+      <p>Describe what you did in this step. The next option we are going to select is option 2 Website Attack Vectors. This option </p>      
+      
       <h2 style={{ fontSize: "1.5em", color: "#c770f0", paddingTop: "24px", paddingBottom: "8px" }}>Tools Used</h2>
       <ul style={{ paddingLeft: "24px" }}>
         <li style={{ paddingBottom: "8px" }}><strong>Tool Name</strong> — what it does</li>
