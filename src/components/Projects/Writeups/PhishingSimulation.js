@@ -19,19 +19,23 @@ function RedTeam1() {
       {/* ===================== EDIT BELOW THIS LINE ===================== */}
 
       <h1 style={{ fontSize: "2.3em", fontWeight: "500", paddingBottom: "20px", color: "white" }}>
-        Breaking In — <span style={{ color: "#c770f0" }}>Legally</span>
+        Breaking In — Phishing Simulation <span style={{ color: "#c770f0" }}>Legally</span>
       </h1>
 
       <h2 style={{ fontSize: "1.5em", color: "#c770f0", paddingTop: "24px", paddingBottom: "8px" }}>Overview</h2>
       <p>
         Replace this with your project overview. Explain what the project is
         about in simple terms that anyone can understand.
+        Phishing attacks use social engineering tactics to trick users into providing sensitive information.
+          This project is to demonstrate how phishing attacks are conducted in a controlled and ethical environment, the tools that are commonly used and discussing ways to mitigate these attacks.
+          The purpose of this project was to gain practical experience and better understand how phishing attacks are conducted.
       </p>
 
       <h2 style={{ fontSize: "1.5em", color: "#c770f0", paddingTop: "24px", paddingBottom: "8px" }}>What Was the Goal?</h2>
       <p>
         Replace this with the goal of your project. What were you trying to
         achieve or demonstrate?
+          The goal of this project is to gain a hands-on understanding of phishing attacks in a controlled environment by simulating real-world techniques and observing their potential outcomes, such as credential theft and unauthorized access.
       </p>
 
       <h2 style={{ fontSize: "1.5em", color: "#c770f0", paddingTop: "24px", paddingBottom: "8px" }}>How It Was Done</h2>
